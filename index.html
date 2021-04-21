@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <title>
+    Shekhar Pathak Portfolio
+  </title>
+  <script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
+  <meta name="description" content="">
+  <meta name="keywords" content="" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#about" class="nav__link">About</a>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          </li><li class="nav__item"><a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Shekhar Pathak</span>
+        </h1>
+        <p>A Software Developer and Problem Solving Enthusiast.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              I am a graduating senior at YSU with major in Computer Science with a minor in Mathematics. 
+              A programming and problem solving enthusiast with hands on experience in python web scraping 
+              and academic experience in coding platforms like C++, Java, HTML.
+            </p>
+            <a href="https://drive.google.com/file/d/1guDChKpoqkSdx1UECu3H5CtpzlN02V7G/view?usp=sharing" target="_blank" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/Shekhar-Pathak.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <!-- INSERTED HERE-->
+      <div class="row">
+        <h2>Skills</h2>
+        <!-- INFO HERE-->
+        <div class="skills__box">
+          <div class="skills__text">
+            <h3>Programming Languages</h3>
+            <ul class="skills__list">
+              <li>Python</li>
+              <li>Java</li>
+              <li>C/C++</li>
+              <li>Visual Basic</li>
+              <li>R</li>
+              <li>HTML</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+            </ul>
+            <h3>IDE</h3>
+            <ul class="skills__list">
+              <li>NetBeans</li>
+              <li>Visual Studio</li>
+              <li>RStudio</li>
+              <li>Code Blocks</li>
+            </ul>
+          </div>
+
+          <div class="skills__image-box">
+            <img src="./images/skills.jpg" class="skills__image" alt="" />
+          </div>
+        </div>
+        <!-- INFO END HERE-->
+      </div>
+    </section>
+
+    <!-- ***** project ***** -->
+
+    <section class="projects" id="projects">
+      <div class="row">
+        <h2>Projects</h2>
+        <div class="project__boxes">
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Curriculum Pull</h3>
+              <p>
+                A web scraping script written in pyton that compares two different years Curriculum Sheets of each programs.
+                And exports the changes (Addition or Deletion) to a Excel spreadsheet. 
+              </p>
+              <ul class="project__list">
+                <li>Python</li>
+                <li>BeautifulSoup</li>
+                <li>Pandas</li>
+                <li>Web Scraping</li>
+              </ul>
+
+              <div class="project__links">
+                <a href="https://github.com/ShekharPathak10/CurriculumPull" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/ShekharPathak10/CurriculumPull" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="project__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./images/Web-Scraper.webp" class="project__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>VDI_Reader</h3>
+              <p>
+                A C++ script which reads the VDI file and gives out the partation details with the function to edit the partition. 
+              </p>
+              <ul class="project__list">
+                <li>C++</li>
+                <li>Code Blocks</li>
+              </ul>
+
+              <div class="project__links">
+                <a href="https://github.com/ShekharPathak10/VDI_Reader" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/ShekharPathak10/VDI_Reader" target="_blank">
+                  <img src="./images/github.svg" class="project__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./images/vdi-read.jpg" class="project__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Console Shopping PHP</h3>
+              <p>
+                An E-commerce website that corresponds with MySQL database to store and retrieve data. 
+                Includes cart features using sessions management. 
+              </p>
+              <ul class="project__list">
+                <li>PHP</li>
+                <li>SQL</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>E-commerce</li>
+              </ul>
+
+              <div class="project__links">
+                <a href="https://github.com/ShekharPathak10/ConsoleShoppingPHP" target = "_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/ShekharPathak10/ConsoleShoppingPHP" target = "_blank">
+                  <img src="./images/github.svg" class="project__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./images/shopping_php.jpg" class="project__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>PlayStation Shopping Java</h3>
+              <p>
+                An E-commerce server side web application created in Java with apache derby. 
+              </p>
+              <ul class="project__list">
+                <li>Java</li>
+                <li>HTML</li>
+                <li>JDBM</li>
+                <li>DERBY</li>
+                <li>E-commerce</li>
+              </ul>
+
+              <div class="project__links">
+                <a href="https://github.com/ShekharPathak10/PlayStationShopping" target = "_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/ShekharPathak10/PlayStationShopping" target = "_blank">
+                  <img src="./images/github.svg" class="project__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./images/ps-shopping.png" class="project__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Academic Projects</h3>
+              <p>
+                Some of my interesting projects done during my college experience.
+              </p>
+              <ul class="project__list">
+                <li>Visual Basic .NET </li>
+                <li>Java</li>
+                <li>Python</li>
+              </ul>
+
+              <div class="project__links">
+                <a href="https://github.com/ShekharPathak10/VisualBasicProjects" target = "_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/ShekharPathak10/VisualBasicProjects" target = "_blank">
+                  <img src="./images/github.svg" class="project__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./images/academic-project.jpg" class="project__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for a candidate with a strong work ethic and is always ready for a new challenge.
+          Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you. 
+          Simply click the link and send me an email. I will be happy to hear from you.
+        </p>
+        <a href="mailto:spathakofficial47@gmail.com" class="btn">spathakofficial47@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/shekhar-pathak-840ba8148/" target = "_blank">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/ShekharPathak10" target = "_blank" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/shkhr7" target = "_blank" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://drive.google.com/file/d/1guDChKpoqkSdx1UECu3H5CtpzlN02V7G/view?usp=sharing" target = "_blank" title="Link to Resume">
+            <img src="./images/Resume.png" class="footer__social-image" alt="Resume">
+          </a>
+        </li>
+      </ul>
+      <p>
+        &copy; 2021 - All rights reserved by Shekhar Pathak.
+      </p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
